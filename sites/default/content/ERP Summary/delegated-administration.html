@@ -1,0 +1,60 @@
+<pre>
+- Delegated (tafweed) Administration
+Enables system administrators to delegate some of their administrative privileges to individuals that manage a subset of the
+organization's users. These individuals are assigned administrative privileges for a limited set of roles that they can assign to the users they manage.
+
+Delegation policies are defined as data security policies. The
+set of data policies that are defined as part of delegated administration are known as <strong>Administration Privileges</strong>.
+
+<strong>Administration Privileges</strong>
+Administration Privileges determine the users, roles and organization information that
+delegated administrators (local administrators) can manage.Each privilege is granted
+separately, yet the three work in conjunction to provide the complete set of abilities for
+the delegated administrator.
+
+- User Adminstration Privileges
+determine the users and people the local administrator can manage.
+Local administrators can be granted different privileges for different
+subsets of users. For example, a local administrator can be granted privileges only
+to query one set of users, and granted full privileges (including update and reset
+password) for another set.
+Local administrators cannot query or manage users for which they do not have administration privileges.
+
+- Role Adminstration Privileges
+define the roles that local administrators can directly assign to and revoke from the set of users they
+manage.
+
+- Organization Adminstration Privileges
+define the external organizations a local administrator can view in Oracle User
+Management. This privilege enables an administrator to search for people based on
+their organization, if the local administrator has additionally been granted access to
+view the people in that organization (User Administration Privileges). Depending
+on the user administration privileges, an administrator may have the ability to
+register new people for that organization.
+
+Oracle Applications continues to support the traditional "System Administrator" level
+of administration privileges, where a designated group of people manages all users and
+access privileges. Oracle User Management ships a predefined Security Administrator
+role, which gives the administrator the privileges to manage all users including system
+accounts and all roles in the system.
+
+
+<strong>Delegating to Proxy Users</strong>
+There are a number of business scenarios in which users of Oracle E-Business Suite
+need to grant delegates the ability to act on their behalf (act as proxy users for them)
+when performing specific E-Business Suite functions.
+
+If a delegator grants a delegate access to
+his password, the delegate will be able to access every application to
+which the delegator has access, not just to specific applications. The new mechanism
+was designed to enable limited, auditable delegation of privilege from delegators to
+their delegates.
+
+Employing the Proxy User mechanism gives all-or-nothing
+delegation capability. However, start and end dates can be defined to
+limit the duration of proxy access.
+
+The ability for users to access the proxy feature is controlled by a Security Administrator
+role. Users with this role determine which set of users can create delegates who can act
+on their behalf.
+</pre>

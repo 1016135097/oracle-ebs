@@ -1,0 +1,45 @@
+Some of the steps outlined in this flowchart and setup checklist are Required and some
+are Optional. Required Step With Defaults means that the setup functionality comes
+with pre-seeded, default values in the database; however, you should review those
+defaults and decide whether to change them to suit your business needs. If you want or
+need to change them, you should perform that setup step. You need to perform
+Optional steps only if you plan to use the related feature or complete certain business
+functions.
+
+
+1- Define Your System Items FF (Required)
+You must design and configure your System Items Flexfield before you can start
+defining items.
+
+2- Define Your Item Categories FF (Required)
+You must design and configure your Item Categories Flexfield before you can start
+defining items since all items must be assigned to categories.
+You can define multiple structures for your Item Categories Flexfield, each structure
+corresponding to a different category grouping scheme. You can then associate these
+structures with the categories and category sets you define.
+
+3- Define Your Item Catalog Group FF (Required)
+If you make entries for your items in a standard industry catalog or want to group your
+items according to certain descriptive elements, you need to configure your Item
+Catalog Group Flexfield.
+Even if you do not use item cataloging, you must enable at least one segment and
+compile this flexfield before you can define items.
+
+4- Define Your Stock Locators FF (Required)
+If you keep track of specific locators such as aisle, row, bin indicators for your items,
+you need to configure your Stock Locators Flexfield and implement locator control in
+your organization.
+Even if you do not implement locator control, you must still compile the Stock Locators
+Flexfield because all Oracle Inventory transaction and on-hand inquiries and reports
+require a frozen flexfield definition. However you do not need to configure the flexfield
+in a specific way.
+
+Note: Whenever you recompile the stock locator field definition, you
+must run the concurrent program Generate Stock Locator Flexfield
+Definition for Mobile Transactions to recompile the flex definition used
+for mobile transactions.
+
+Note: If you use Mobile Supply Chain Applications or Warehouse
+Management, you need to bound the server to view the change.
+
+5- Define Your Account Aliases FF (Required)

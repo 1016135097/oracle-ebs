@@ -1,0 +1,26 @@
+who decide the costing method of the organization? the financial team?
+why costing method is determined on the organization level?
+costing information tab -> transfer to GL
+
+
+
+revision control
+
+
+Restricting Items to Subinventories
+You can assign items to a given subinventory.  Assigning items to a subinventory does not restrict the subinventory to that list of items.  Rather, the items are restricted to that subinventory.  Thus, you can always issue and receive unrestricted items to any subinventory, but you can only issue and receive restricted items to those particular subinventories.  You activate the list of subinventories for a restricted item when you set the Restrict Subinventories attribute. You also use the item-subinventory relationship to specify valid subinventories for zero quantity cycle counts for an item, and to specify items for an ABC analysis performed at the subinventory level.  In these cases you do not have to set the Restrict Subinventories attribute, only establish the relationship between the item and subinventory.
+
+
+diff between categories and catalagos?
+
+
+
+ the system on-hand (perpetual) and actual on-hand (physical) quantities.?
+
+
+ could we assign items without ABC compile?
+
+
+ naming conventions?
+
+ what happens after i runs the Cycle Count Scheduler?

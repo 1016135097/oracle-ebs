@@ -1,0 +1,29 @@
+<pre>
+Request Groups Window
+Use this window to define a request group. A request security group is the collection of requests, request sets, and concurrent programs that a user, operating under a given responsibility, can select from the Submit Requests window.
+
+System Administrators:
+Assign a request security group to a responsibility when defining that responsibility. A responsibility without a request security group cannot run any requests using the Submit Requests window.
+Can add any request set to a request security group. Adding a private request set to a request security group allows other users to run that request set using the Submit Requests window.
+
+Users:
+Can create their own private request sets using the Request Sets window. In a private request set, users can include only the requests you assign to their request security group.
+Cannot update another user's private request set using the Request Sets window.
+Cannot delete a private request set if it is assigned to a request security group.
+
+
+type
+Choose program or set to add one item, or choose application to include all requests in an application.
+
+
+You can define a request group to contain single requests, request sets, or all the requests and request sets in an application.
+
+Two types of Request Group
+
+A request group is used by Oracle Applications at two different levels:
+1.	Responsibility level
+When a request group is assigned to a responsibility, it is referred to as a request security group, and it defines the reports, request sets, and concurrent programs that a user, operating under that responsibility, can select from the Submit Requests Window.
+2.	Form level
+When a request group is assigned a code, that code can be passed as a parameter to the Submit Requests Window. The code helps define the function that calls the Submit Requests Window.
+The list of values for that unique Submit Requests Window lists the reports, request sets, and concurrent programs in the request group.
+</pre>

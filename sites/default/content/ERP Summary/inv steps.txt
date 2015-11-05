@@ -1,0 +1,9 @@
+create responsibility
+configure 3 profiles options
+- HR: business group
+- GL: Ledger name
+- MO: operating unit
+
+
+create inv
+create sub invs

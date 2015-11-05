@@ -1,0 +1,55 @@
+MO Multi organization
+used in:
+- separating the data (security)
+- allow impelementation for many organizations on one server and one application
+
+BG business group, HR?
+
+Ledger  - 4 C's ( Currency - SLAM> sub ledger Accounting method (convention) - COA chart of account - Calendar )
+
+LE legal intety ( defferant legal) (diferant GL)
+
+OU operating unit (differant in activty)
+
+Inventory 
+
+
+
+set of book = ledger
+
+
+
+
+
+knowing busniess departemnts and their interactions (busniess understanding)
+knowing EBS idioms
+knowing how to do what you want  in EBS
+
+
+
+hisham.elnaggar@gmail.com
+
+
+wewe787@hot
+waelbatrawy@gmail
+
+*********************
+konledge phases
+*********************
+what knowledge is lacking
+the best way to present it, be proffesoinal in it
+arabic,english,both?
+(video, book, ...) , (how to make/organize the video, book, ...)
+who to deliver it to whom need it
+is this knowledge is updating often (like programming topics), or fixed knowledge (like religion)
+
+organizing the knowledge flow
+
+
+beginner and intermediate levels could be in videos
+but advanced things is hard to make in videos, because it needs deep understanding and focus, so you have to be sure that the kind of viedo you will make will deliver that, otherwise translate a book or something else.
+
+
+university that publish the knowledge for free
+and provide real tranning and certifications for money
+

@@ -1,0 +1,56 @@
+what is flexfield?
+flexfield types
+inteligent key - code - combination - combination table
+benefits of flexfields
+structure
+segment
+value set
+value
+validation
+
+
+types of key flexfield forms
+
+-flexfield qualifier 
+identifies a particular segment of a key flexfield
+Usually an application needs some method of identifying a particular segment for some
+application purpose such as security or computations. However, since a key flexfield
+can be customized so that segments appear in any order with any prompts, the
+application needs a mechanism other than the segment name or segment order to use
+for segment identification. Flexfield qualifiers serve this purpose. You can think of a
+flexfield qualifier as an "identification tag" for a segment.
+
+A segment qualifier identifies a particular type of value in a single segment of a key
+flexfield.
+
+flexfield value security
+Cross-validation (for key flexfields)
+Shorthand entry (for key flexfields)
+allow dynamic inserts
+
+
+SysAdmin > Application > FlexField > K>>>>
+
+
+**Planning
+Decide which flexfields to implement
+• Learning about a specific flexfield
+• Planning the structure
+• Planning the segments
+• Planning the segment validation
+• Planning to use additional features
+• Documenting your plan
+
+Tip: We recommend that you plan your flexfields as completely as
+possible, including your potential segment values, before you even
+begin to define them using Oracle E-Business Suite forms. Once
+you begin using your flexfields to acquire data, you cannot change
+them easily. Changing a flexfield for which you already have data
+may require a complex conversion process.
+
+
+
+You should fully document your flexfield plans before you sit down to define your
+flexfields using your Oracle E-Business Suite setup forms.
+We provide worksheets and templates throughout the book that you can use to aid
+your decision and documentation process.

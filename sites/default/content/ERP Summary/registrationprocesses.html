@@ -1,0 +1,37 @@
+<pre>
+Provisioning services are modeled as registration processes that enable end users to
+perform some of their own registration tasks, such as requesting new accounts or
+additional access to the system. They also provide administrators with a faster and
+more efficient method of creating new user accounts, as well as assigning roles.
+
+Registration processes accomplish this by encapsulating core components of registration, including:
+- The role(s) assigned after the user successfully completes the process.
+- An optional registration user interface for collecting account or additional information.
+- A workflow for approval, confirmation, rejection, and identity verification notifications.
+- The Approval Management Transaction Type. A transaction type represents a set of
+approval routing rules that are interpreted at runtime.
+- The set of users that are eligible to sign up for additional access (only applicable for
+Request for Additional Access registration processes).
+- Whether identity verification is required. Identity verification confirms the identity
+of a requester before the registration request is processed, by sending an email
+notification to the requester's email address. If the recipient does not reply within a
+specified time, the request will be automatically rejected.
+- The set of local administrators that should be able to register people and/or create
+users through the Account Creation by Administrators registration process.
+
+When a user completes registration using a registration process, the system captures the
+required information from the user, and subsequently assigns that person a new user
+account, role, or both. Oracle User Management supports three types of registration
+processes:
+
+- self-service account requests
+Commonly referred to as Self-Service Registration, self-service account requests provide
+a method for individuals to request a new user account.
+
+
+
+- request for additional access 
+
+- account creation by administrators
+
+</pre>

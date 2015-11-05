@@ -1,0 +1,45 @@
+<pre>
+A responsibility is a level of authority in Oracle E-Business Suite. It enables your access to those functions and data appropriate for your enterprise role. You can have one or more responsibilities.
+
+A responsibility is a set of data, menus, and forms that defines your particular level of authority while using the system. 
+
+A responsibility determines whether the user accesses Oracle E-Business Suite or Oracle Mobile Applications; which applications functions a user can use; which reports and concurrent programs the user can run; and which data those reports and concurrent programs can access.
+
+A responsibility provides a context in which a user operates. This context can include profile option values, navigation menus, available concurrent programs, and so on.
+
+A responsibility is uniquely identified by application name and responsibility name.
+
+System adminstrator > security > responsibility > define
+
+Each user has at least one or more responsibilities, and multiple users can share the same responsibility. A system administrator can assign users any of the standard responsibilities provided with Oracle E-Business Suite, or create new custom responsibilities if required.
+
+Each responsibility would be associated with a single Application
+
+A system administrator can assign users any of the standard responsibilities provided with Oracle E-Business Suite, or create new custom responsibilities if required.
+
+Responsibilities cannot be deleted.
+To prevent a responsibility from being used, set the Effective Date's To field to a past date and restart Oracle E-Business Suite.
+=You cannot delete a responsibility, because its information helps to provide an audit trail.You can deactivate a responsibility at any time by setting the end date to the current date. If you wish to reactivate the responsibility later, either change the end date to a date after the current date, or clear the end date.
+
+** DEFINING **
+when defining new responsibility the following must be pre-difined:
+-Data Group  ??Note: Data groups are used for backward compatibility only. Oracle Application Framework does not support the data groups feature.
+-Request Group (if needed)
+???Note: The Request Security Groups feature is provided for backward compatibility.
+New responsibilities should be created in accordance with Role-Based Access Control and should not have a default request security group.
+-Menus
+-Menu Exclusions
+-??Excluded Items
+-??Securing Attributes
+
+An application (The owning application for the responsibility) name and a responsibility name uniquely identify a responsibility.
+This application name does not prevent the user of this responsibility from accessing other applications' forms and functions if you define the menu to access other applications.
+
+This is the internal key for the responsibility that is used by loader programs, (concurrent programs that load messages, user profiles, user profile values, and other information into Oracle E-Business Suite tables). The responsibility key is unique per application.
+Avoid using the following characters in the responsibility keys: !, ", ;, [, ], (, ), {, }, %, |, <, >.
+
+Menu Exclusions Block
+Select either Function or Menu as the type of exclusion rule to apply against this responsibility.
+-When you exclude a function from a responsibility, all occurrences of that function throughout the responsibility's menu structure are excluded.
+-When you exclude a menu, all of its menu entries, that is, all the functions and menus of functions that it selects, are excluded.
+</pre>

@@ -1,0 +1,291 @@
+# Inventory Menu
+
+- **Transactions**
+	- **Receiving**
+		- Receipts
+		- Returns
+		- Receiving Transactions
+		- Corrections
+		- Manage Shipments
+		- View Receiving Transactions
+		- Transactions Status Summary
+	- Subinventory Transfer
+	- Inter-organization Transaction
+	- Miscellaneous Transaction
+	- Movement Statistics
+	- Purge
+	- Material Transactions ``` Show Transactions in Details ```
+	- Transaction Summaries
+	- Material Distributions
+	- Pending Transactions
+	- Transaction Open Interface
+	- Borrow Payback Transactions
+	- Planning Transfer
+	- View Label Requests
+	- Consigned Transactions
+
+- **Move Orders**
+	- Move Orders
+	- Transact Move Orders
+
+- **On-hand, Availability**
+	- on-hand Quantity 
+	- Mult-organization Quantity
+	- Resource Supply
+	- Item Supply/Demand
+	- View Potential Shortage
+	- Reservations
+	- Reservations Interface
+	- Reservations Interface Manager
+	- Lots
+	- Serial Numbers
+	- Generate Serial Numbers
+	- **Inventory Positions**
+		- Build
+		- Display
+		- Requests
+
+- **Items**
+	- Master Items
+	- Organization Items
+	- Cross References
+	- Item Relationships
+	- **Manufacturers' Part numbers**
+		- By Manufacturers
+		- By Items
+		- MPN Query-Only
+	- **Customer Items**
+		- Customer Items
+		- Customer Item Cross References
+	- Item Information
+	- Item Search
+	- Pending Status
+	- Documents
+	- **Import**
+		- Import Items
+		- Import Item Category Assignments
+		- Import Customer Items
+		- Import Customer Item Cross References
+		- Import Item Cross References
+		- Import Related Items
+	- Delete Items
+	- Copy Item Attributes
+
+- **Costs**
+	- Item Costs
+	- **Standard Cost Update**
+		- Update Costs
+		- View Cost Update
+		- Purge Cost Update History
+		- View Cost History
+	- Average Cost Update
+	- **Cost Mass Edits**
+		- Copy Cost Information
+		- Mass Edit Cost Information
+		- Mass Edit Item Accounts
+		- Purge Cost Information
+		- Import Cost Information
+		- Import Cost Form Price List
+		- Set Cost Controls
+
+- **Counting**
+	- **Cycle Counting**
+		- Cycle Counts
+		- Manual Requests
+		- Cycle Count Entries
+		- Approve Counts
+	- **Open Interface**
+		- Inquiry/Update Open Interface
+		- Export Cycle Count Entries
+		- Import Cycle Count Interface Data
+		- Purge Cycle Count Interface Data
+	- **Physical Inventory**
+		- Physical Inventories
+		- Tag Generation
+		- Tag Counts
+		- Approve Adjustments
+	- **Replenishment Counts**
+		- Counts
+		- Process Interface
+		- Purge
+
+- **Kanban**
+	- Pull Sequences
+	- Kanban Cards
+	- Generate Kanban Cards
+	- Print Kanban Cards
+
+- **Planning**
+	- Min-Max Planning
+	- Reorder Point Planning
+	- Safety Stocks
+	- Safety Stock Update
+	- Demand History
+	- Compile Demand History
+	- **Forecasts**
+		- Items
+		- View Items
+		- Entries
+		- View Entries
+		- Sets
+		- View Sets
+		- Generate
+
+- **ABC Codes**
+	- ABC Compiles
+	- ABC Classes
+	- ABC Assignment Groups
+	- Assign Items
+	- Update Item Assignments
+
+- **Accounting Close Cycle**
+	- Inventory Accounting Periods
+	- Project Cost Transfers
+
+- **Reports**
+	- Transactions
+	- Items
+	- **Costs**
+		- Items
+		- Pending
+		- Adjustments
+		- All
+	- Planning
+	- ABC and Counting
+	- On-hand
+	- Setup
+	- Intercompany Invoicing
+	- Shortages
+	- Movement Statistics
+	- Consigned Inventory
+	- All
+
+- Requests
+
+- **Setup**
+	- **Transactions**
+		- Source Types
+		- Types
+		- Reasons
+		- Item Transaction Defaults
+		- **Movement Statistics**
+			- Economic Zones
+			- Parameters
+			- Validation Rules
+		- Interface Managers
+		- Consigned/VMI Consumption
+		- Material Status
+	- **Items**
+		- Templates
+		- Attribute Controls
+		- Catalog Groups
+		- **Categories**
+			- Category Sets
+			- Category Codes
+			- Default Category Sets
+			- Category Accounts
+		- Customer Item Commodity Codes
+		- Item Types
+		- Status Codes
+		- Container Types
+		- Delete Constraints
+		- **Commodities**
+			- Commodities
+		- Delete Statements
+	- **Costs**
+		- **Sub-elements**
+			- Material
+			- Overheads
+			- Defaults
+		- Activities
+		- Cost Types
+		- Cost Groups
+	- **Unit of Measure**
+		- unit of Measure
+		- classes
+		- Conversions
+		- Lot Specific Conversions
+	- **Rules**
+		- Available to Promise
+		- Forecast
+		- Picking
+		- Pick Slip Grouping
+	- **Organizations**
+		- Organizations
+		- Parameters
+		- Locations
+		- Employees
+		- Calendars
+		- Calendar Exception Templates
+		- Subinventories
+		- Stock Locators
+		- Shipping Networks
+		- Inter-Location Transit Times
+		- Shipping Methods
+		- Shortage Parameters
+		- Intercompany Transaction Flows
+		- Organization Access
+		- Purchasing Parameters
+		- Receiving Parameters
+		- Shipping Parameters
+		- Hierarchy
+	- **Organization Copy**
+		- Maintain Interface
+		- Launch Organization Copy
+	- **Receiving**
+		- Purchasing
+		- Receiving
+	- Planners
+	- Account Aliases
+	- **Profiles**
+		- Personal
+	- **Flexfields**
+		- **Key
+			- Segments
+			- Values
+			- Aliases
+			- Rules
+			- Groups
+			- **Security**
+				- Define
+				- Assign
+			- Accounts
+		- **Descriptive**
+			- Segments
+			- Values
+			- **Security**
+				- Define
+				- Assign
+		- **Validation**
+			- Sets
+			- Values
+			- **Security**
+				- Define
+				- Assign
+	- **Financials**
+		- **Accounting Calendar**
+			- Types
+			- Accounting
+		- **Accounting Setup Manager**
+			- Accounting Setups
+		- **Currencies**
+			- Daily Rates
+			- Periods Rates
+			- Currency Codes
+		- Accounts
+	- Lookups
+	- Descriptive Flexfield Register
+	- **Label Printing**
+		- Label Formats
+		- Assign Label Types
+		- Assign Printers
+		- Define Printer IP
+	- Freight Carriers
+	- BOM Lookups
+	- Grades
+	- Action Codes
+- Change Organization
+- Notification Summary
+- Workflow Monitor
+- Notification List
+- Workflow Background Engine

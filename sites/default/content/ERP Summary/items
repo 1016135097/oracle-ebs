@@ -1,0 +1,87 @@
+Defining Master item organization
+- use it to define items
+- one per implementation
+
+item attributes have two levels  
+- Master level
+- organization level
+
+-> you define the item using the Master org, then assign it to other organizations,
+then change the attributes that is different to that organization on the organization level
+
+-> you can change the control level of some attributes in special cases, or in certain circumstances
+
+
+item status (how it works ????????????????????????) P13
+- setup -> items -> status codes
+-> Item Status Control differs from material status control. Item
+status control controls the action you can perform on an item, such as
+purchasing or stocking an item. Material Status controls the
+transactions you can perform on an item.
+
+-> When you set an item defining attribute to Yesthe item is automatically assigned to the
+default category set of the corresponding functional area. For example, if you set
+Inventory Item to Yes the item is automatically assigned to the default category set for
+the Inventory functional area.
+
+Relationships Between Attributes P14
+When you define items, Oracle Inventory enforces particular relationships between
+some of the item attributes:
+- Required attributes: You must enter a value for the attribute based on the settings
+for other related attributes.
+- Interdependent attributes: You can enter only certain values depending on other
+attribute values.
+- Updatable attributes: You can update values under certain conditions.
+- Control level dependencies: You can update the control level of some attributes
+only under special conditions and with certain consequences.
+
+Defining Item Attribute Controls
+- you can change whether the attribute is controlled on master level or organization level
+- setup -> items -> attribute controls
+
+
+define item
+
+assign to organizations
+
+assign to sub-inventory
+
+search for an item 
+
+delete item
+
+revision control
+
+
+costing: average, standard, ......
+
+
+Container type ????????????
+
+
+
+pending status
+- Master items -> tools -> pending status
+- items -> pending status (reports)
+
+
+Picking rules
+
+item types
+
+item template
+
+cross-reference types?
+Commodity Codes?
+customer items?
+
+Categories
+A category is a logical classification of items that have similar characteristics.
+default category set
+assign items to Categories
+assign people to categories
+
+item catalog
+descriptive elements
+
+aliases
