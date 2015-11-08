@@ -7,6 +7,7 @@
 - [RFQs and Quotations](purchasing/rfq)
 - [Requisitions](purchasing/requisitions)
 - [Purchase Orders](purchasing/po)
+- [Buyer Work Center](purchasing/bwc)
 
 
 ### Requisition Types
